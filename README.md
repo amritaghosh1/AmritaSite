@@ -1,6 +1,12 @@
 AmritaSite
 ==========
 
+Technologies:
+1. Spring Boot
+2. Flyway
+3. Angular
+
+
 Lesson learned:
 
 1. H2 console (http://localhost:8080/h2) did not load when the application is run from IntelliJ. 
