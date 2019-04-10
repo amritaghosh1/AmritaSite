@@ -5,15 +5,16 @@
 
 package com.amritasite.apps.model;
 
-import java.util.Date;
+import java.time.Instant;
 
 /**
  * @author Amrita Ghosh (aghosh@expedia.com)
  */
 public class FoodAllergy {
     String food;
-    Date dateGiven;
+    Instant givenTime;
     String reaction;
-    Date reactionNoticedDate;
-    Date dateStopped;
+    Instant reactionNoticedTime;
+    Instant stoppedTime;
+    String comment;
 }
